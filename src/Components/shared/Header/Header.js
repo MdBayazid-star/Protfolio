@@ -11,7 +11,9 @@ const Header = () => {
         <nav className="navbar navbar-expand-lg navbar-light">
           <div className="container-fluid">
             <a className="navbar-brand" href="/">
-              Navbar
+              <span className="text-red fw-bold">A</span>bu{" "}
+              <span className="text-red fw-bold">B</span>akker
+              <span className="text-red fw-bold"> ...</span>
             </a>
             <button
               className="navbar-toggler"
@@ -41,34 +43,19 @@ const Header = () => {
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  {/* <NavLink
-                    className="nav-link"
-                    to="/"
-                    style={({ isActive }) =>
-                      isActive ? activeStyle : undefined
-                    }
-                  > */}
-                  <a
-                    className="nav-link"
-                    // style={({ isActive }) =>
-                    //   isActive ? activeStyle : undefined
-                    // }
-                    href="#about"
-                  >
+                  <a className="nav-link" href="#about">
                     About Me
                   </a>
-                  {/* </NavLink> */}
                 </li>
                 <li className="nav-item">
-                  <NavLink
-                    className="nav-link"
-                    to="/contact"
-                    style={({ isActive }) =>
-                      isActive ? activeStyle : undefined
-                    }
-                  >
+                  <a className="nav-link" href="#project">
+                    Project
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#contact">
                     contact
-                  </NavLink>
+                  </a>
                 </li>
               </ul>
             </div>

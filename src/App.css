@@ -74,7 +74,7 @@ button.buttonOutline:hover {
   color: #6c757d;
 }
 .bgLightRed {
-  background: #f5222631;
+  background: #f5222609;
 }
 .bgLightGray {
   background: #7d7d7e0c;
@@ -161,7 +161,7 @@ button.buttonOutline:hover {
   overflow: hidden;
   position: relative;
   margin-bottom: 30px;
-  border: 5px solid #f522262f;
+  border: 5px solid #f522260e;
   padding: 6px;
   border-radius: 10px;
   -webkit-border-radius: 10px;

@@ -29,7 +29,7 @@ const Contact = () => {
     e.target.reset();
   };
   return (
-    <div className="bg-light p-2">
+    <div id="contact" className="bg-light p-2">
       <div className="container">
         <div className="row">
           <div className="col-lg-6 my-auto">
