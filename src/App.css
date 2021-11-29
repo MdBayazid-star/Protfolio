@@ -1,0 +1,219 @@
+.HomeBanner {
+  background: url(http://benyreact.ibthemespro.com/img/slider/9.jpg) no-repeat
+    center;
+  height: 80vh;
+  width: 99.1vw;
+}
+.text-red {
+  color: #f52225;
+}
+.margin1 {
+  margin-top: 22vh;
+}
+.fontSizeBig {
+  font-size: 50px;
+}
+button.buttonOutline {
+  color: #000;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+button.buttonOutline:hover {
+  color: #f52225;
+  border: 2px solid #f52225;
+}
+.buttonNormal {
+  color: #fff;
+  display: inline-block;
+  background: #f52225;
+  padding: 10px 20px;
+  border: 2px solid #f52225;
+  text-decoration: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.buttonNormal:hover {
+  color: #f52225;
+  background: #fff;
+}
+.HR {
+  margin: 0;
+  border-radius: 10px;
+  padding: 2px;
+  width: 80px;
+  color: #f52225;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.AboutImg {
+  width: auto;
+  height: 600px;
+}
+.text-gray {
+  color: #6c757d;
+}
+.bgLightRed {
+  background: #f5222631;
+}
+.bgLightGray {
+  background: #7d7d7e0c;
+}
+.icons i {
+  padding: 6px;
+  background: #f5222631;
+  color: #f52225;
+  margin-right: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.borderRadius {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.footer {
+  background: rgba(0, 0, 0, 0.829);
+  color: aliceblue;
+}
+.footerLink h4 {
+  margin-bottom: 20px;
+}
+.footerLink li {
+  color: rgba(255, 255, 255, 0.781);
+  line-height: 40px;
+  list-style-type: none;
+  cursor: pointer;
+}
+.foot {
+  color: #fff;
+}
+.footerLink li:hover {
+  color: #f52225;
+}
+.footerText p {
+  color: #fff;
+}
+.footerLink h4 {
+  color: #e0f6ef;
+}
+.footerLink li i {
+  transition: all ease 0.7s;
+  -webkit-transition: all ease 0.7s;
+  -moz-transition: all ease 0.7s;
+  -ms-transition: all ease 0.7s;
+  -o-transition: all ease 0.7s;
+  transform: rotate(0);
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -o-transform: rotate(0);
+}
+.footerLink li:hover i {
+  margin-right: 8px;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
+.myInfo {
+  color: #6c757d;
+  font-weight: 500;
+  font-size: 20px;
+}
+.myInfo span {
+  font-weight: 700;
+  color: #f52225;
+}
+.myInfo a {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.box {
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 30px;
+  border: 5px solid #f522262f;
+  padding: 6px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.box img {
+  width: 100%;
+  /* height: auto; */
+  transform-origin: bottom center;
+  transform: perspective(500px) rotateX(0);
+  transition: 0.5s all ease;
+}
+.box:hover img {
+  transform: perspective(500px) rotateX(50deg);
+}
+.box .box_content {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-origin: top center;
+  transform: perspective(500px) rotateX(-50deg);
+  opacity: 0;
+  background: linear-gradient(to right, #f522269f, #f5222680);
+  border: 5px solid #f522262f;
+  transition: 0.5s all ease;
+}
+.box:hover .box_content {
+  opacity: 1;
+  transform: perspective(500px) rotateX(0);
+}
+.box .box_content .content .title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+.box .box_content .content .post {
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+img {
+  width: 400px;
+  height: 500px;
+}
