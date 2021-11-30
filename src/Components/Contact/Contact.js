@@ -14,13 +14,11 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
           // document.getElementById("status").classList.add("success");
           // document.getElementById("status").innerHTML =
           //   "Thank you for your message.";
         },
         (error) => {
-          console.log(error.text);
           // document.getElementById("status").classList.add("error");
           // document.getElementById("status").innerHTML =
           //   "Oops! There was a problem.";

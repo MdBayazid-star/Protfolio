@@ -5,7 +5,7 @@
   width: 99.1vw;
 }
 .text-red {
-  color: #f52225;
+  color: #03b97c;
 }
 .margin1 {
   margin-top: 22vh;
@@ -16,7 +16,7 @@
 button.buttonOutline {
   color: #000;
   padding: 10px 20px;
-  border: 2px solid #fff;
+  border: 2px solid #03b97c;
   text-decoration: none;
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -30,15 +30,15 @@ button.buttonOutline {
   -o-transition: all 0.3s ease-in-out;
 }
 button.buttonOutline:hover {
-  color: #f52225;
-  border: 2px solid #f52225;
+  color: #03b97c;
+  border: 2px solid #03b97c;
 }
 .buttonNormal {
   color: #fff;
   display: inline-block;
-  background: #f52225;
+  background: #03b97c;
   padding: 10px 20px;
-  border: 2px solid #f52225;
+  border: 2px solid #03b97c;
   text-decoration: none;
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -52,7 +52,7 @@ button.buttonOutline:hover {
   -o-transition: all 0.3s ease-in-out;
 }
 .buttonNormal:hover {
-  color: #f52225;
+  color: #03b97c;
   background: #fff;
 }
 .HR {
@@ -60,7 +60,7 @@ button.buttonOutline:hover {
   border-radius: 10px;
   padding: 2px;
   width: 80px;
-  color: #f52225;
+  color: #03b97c;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -74,15 +74,40 @@ button.buttonOutline:hover {
   color: #6c757d;
 }
 .bgLightRed {
-  background: #f5222609;
+  background: #03b97c34;
+}
+.bgContent {
+  background: #03b97c4b;
+  border-radius: 10px;
+  color: #fff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.bgLightReds {
+  background: #03b97c4b;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 .bgLightGray {
   background: #7d7d7e0c;
 }
+.bgLightGrays {
+  background: #7d7d7ec4;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
 .icons i {
   padding: 6px;
-  background: #f5222631;
-  color: #f52225;
+  background: #03b97c4b;
+  color: #03b97c;
   margin-right: 10px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -114,7 +139,7 @@ button.buttonOutline:hover {
   color: #fff;
 }
 .footerLink li:hover {
-  color: #f52225;
+  color: #03b97c;
 }
 .footerText p {
   color: #fff;
@@ -149,7 +174,7 @@ button.buttonOutline:hover {
 }
 .myInfo span {
   font-weight: 700;
-  color: #f52225;
+  color: #03b97c;
 }
 .myInfo a {
   color: #6c757d;
@@ -161,7 +186,7 @@ button.buttonOutline:hover {
   overflow: hidden;
   position: relative;
   margin-bottom: 30px;
-  border: 5px solid #f522260e;
+  border: 5px solid #03b97c1f;
   padding: 6px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -192,8 +217,8 @@ button.buttonOutline:hover {
   transform-origin: top center;
   transform: perspective(500px) rotateX(-50deg);
   opacity: 0;
-  background: linear-gradient(to right, #f522269f, #f5222680);
-  border: 5px solid #f522262f;
+  background: linear-gradient(to right, #03b97c98, #03b97c4b);
+  border: 5px solid #03b97c4b;
   transition: 0.5s all ease;
 }
 .box:hover .box_content {

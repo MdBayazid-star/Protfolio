@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import About from "../../AboutMe/About";
 const Header = () => {
   let activeStyle = {
-    color: "#f52225",
+    color: "#03b97c",
   };
   return (
     <div>
@@ -40,6 +40,17 @@ const Header = () => {
                     }
                   >
                     Home
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link active"
+                    to="/blog"
+                    style={({ isActive }) =>
+                      isActive ? activeStyle : undefined
+                    }
+                  >
+                    Blog
                   </NavLink>
                 </li>
                 <li className="nav-item">

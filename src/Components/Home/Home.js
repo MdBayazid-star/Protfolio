@@ -1,6 +1,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import About from "../AboutMe/About";
+import Blog from "../Blog/Blog";
 import Contact from "../Contact/Contact";
 import Project from "../Project/Project";
 import Services from "../Services/Services";
@@ -58,6 +59,7 @@ const Home = () => {
       <Skills />
       <Services />
       <Project />
+      {/* <Blog></Blog> */}
       <Contact />
     </div>
   );
