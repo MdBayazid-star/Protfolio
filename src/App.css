@@ -176,6 +176,9 @@ button.buttonOutline:hover {
   font-weight: 700;
   color: #03b97c;
 }
+.success {
+  color: #03b97c;
+}
 .myInfo a {
   color: #6c757d;
   text-decoration: none;
