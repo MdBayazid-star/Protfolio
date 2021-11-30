@@ -54,39 +54,6 @@ const Header = () => {
                     Blog
                   </NavLink>
                 </li>
-                <li className="nav-item">
-                  <HashLink
-                    className="nav-link active"
-                    to="/home#about"
-                    // style={({ isActive }) =>
-                    //   isActive ? activeStyle : undefined
-                    // }
-                  >
-                    about
-                  </HashLink>
-                </li>
-                <li className="nav-item">
-                  <HashLink
-                    className="nav-link active"
-                    to="/home#project"
-                    // style={({ isActive }) =>
-                    //   isActive ? activeStyle : undefined
-                    // }
-                  >
-                    Project
-                  </HashLink>
-                </li>
-                <li className="nav-item">
-                  <HashLink
-                    className="nav-link active"
-                    to="/home#contact"
-                    // style={({ isActive }) =>
-                    //   isActive ? activeStyle : undefined
-                    // }
-                  >
-                    Contact
-                  </HashLink>
-                </li>
               </ul>
             </div>
           </div>
