@@ -40,12 +40,7 @@ const Home = () => {
                 am passionate about building excellent software that improves
                 the lives of those around me.
               </p>
-              <a
-                href={
-                  "https://drive.google.com/u/0/uc?id=1-g-MsvWIsD6yB57eybhEW9WTqHhSk7Bk&export=download"
-                }
-                download="Abu Bakker Resume"
-              >
+              <a href="/">
                 <button className="buttonOutline">Hire me</button>
               </a>
             </div>

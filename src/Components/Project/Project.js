@@ -28,12 +28,12 @@ const Project = () => {
                     <h3 class="title">{project.name}</h3>
                     <div className="d-flex justify-content-between mt-4">
                       <span>
-                        <a href={project.GithubClient}>
+                        <a target="_blank" href={project.GithubClient}>
                           <i class="fas fa-code fs-4 text-light"></i>
                         </a>
                       </span>
                       <span>
-                        <a href={project.LiveSite}>
+                        <a target="_blank" href={project.LiveSite}>
                           <i class="fas fa-external-link-alt fs-4 text-light"></i>
                         </a>
                       </span>
