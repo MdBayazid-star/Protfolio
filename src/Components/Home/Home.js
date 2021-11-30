@@ -46,9 +46,7 @@ const Home = () => {
                 }
                 download="Abu Bakker Resume"
               >
-                <button className="buttonOutline">
-                  Download Resume <i class="fas fa-download"></i>
-                </button>
+                <button className="buttonOutline">Hire me</button>
               </a>
             </div>
             <div className="col-lg-6"></div>

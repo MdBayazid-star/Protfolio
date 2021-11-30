@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import About from "../../AboutMe/About";
 const Header = () => {
   let activeStyle = {
@@ -54,19 +55,37 @@ const Header = () => {
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#about">
-                    About Me
-                  </a>
+                  <HashLink
+                    className="nav-link active"
+                    to="/home#about"
+                    // style={({ isActive }) =>
+                    //   isActive ? activeStyle : undefined
+                    // }
+                  >
+                    about
+                  </HashLink>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#project">
+                  <HashLink
+                    className="nav-link active"
+                    to="/home#project"
+                    // style={({ isActive }) =>
+                    //   isActive ? activeStyle : undefined
+                    // }
+                  >
                     Project
-                  </a>
+                  </HashLink>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#contact">
-                    contact
-                  </a>
+                  <HashLink
+                    className="nav-link active"
+                    to="/home#contact"
+                    // style={({ isActive }) =>
+                    //   isActive ? activeStyle : undefined
+                    // }
+                  >
+                    Contact
+                  </HashLink>
                 </li>
               </ul>
             </div>

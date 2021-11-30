@@ -103,7 +103,7 @@ const ProjectDetails = () => {
             <div className="d-flex  mt-2">
               <div className="me-4">
                 {ExactItem[0]?.GithubClient ? (
-                  <a href={ExactItem[0]?.GithubClient}>
+                  <a target="_blank" href={ExactItem[0]?.GithubClient}>
                     <button className="buttonOutline">
                       <i class="fab fa-github"></i> Github
                     </button>
@@ -114,7 +114,7 @@ const ProjectDetails = () => {
               </div>
               <div className="me-4">
                 {ExactItem[0]?.GithubServer ? (
-                  <a href={ExactItem[0]?.GithubServer}>
+                  <a target="_blank" href={ExactItem[0]?.GithubServer}>
                     <button className="buttonOutline">
                       <i class="fab fa-github"></i> Github
                     </button>
@@ -125,7 +125,7 @@ const ProjectDetails = () => {
               </div>
               <div className="me-4">
                 {ExactItem[0]?.LiveSite ? (
-                  <a href={ExactItem[0]?.LiveSite}>
+                  <a target="_blank" href={ExactItem[0]?.LiveSite}>
                     <button className="buttonOutline">
                       <i class="fas fa-external-link-alt"></i> Live
                     </button>

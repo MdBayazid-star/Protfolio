@@ -14,14 +14,14 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          // document.getElementById("status").classList.add("success");
-          // document.getElementById("status").innerHTML =
-          //   "Thank you for your message.";
+          document.getElementById("status").classList.add("success");
+          document.getElementById("status").innerHTML =
+            "Thank you for your message.";
         },
         (error) => {
-          // document.getElementById("status").classList.add("error");
-          // document.getElementById("status").innerHTML =
-          //   "Oops! There was a problem.";
+          document.getElementById("status").classList.add("error");
+          document.getElementById("status").innerHTML =
+            "Oops! There was a problem.";
         }
       );
     e.target.reset();
@@ -120,12 +120,12 @@ const Contact = () => {
                     name="message"
                   />
                 </div>
-
                 <div className="col-12">
                   <button type="submit" className="btn buttonNormal">
                     Send Message <i class="fas fa-paper-plane"></i>
                   </button>
                 </div>
+                <div id="status"></div>
               </form>
             </div>
           </div>
